@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .manrope-font {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/dfde9938d8.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+
+<body class="manrope-font">
+  <header class="bg-gradient-to-b from-slate-50 to-white">
+    <div class="navbar w-5/6 mx-auto">
+      <div class="navbar-start max-sm:w-4/6">
+        <h2 class="font-bold text-3xl max-sm:text-2xl"><i
+            class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full -rotate-45 p-1 mr-2"></i>Rinterio</h2>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="font-bold text-[#494949]">Home</a></li>
+          <li><a class="text-[#737373]" href="">Services</a></li>
+          <li><a class="text-[#737373]">Portfolio</a></li>
+          <li><a class="text-[#737373]" href="">Blogs</a></li>
+          <li><a class="text-[#737373]" href="">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-20 p-2 shadow overflow-hidden">
+            <li><a class="text-[#494949]">Home</a></li>
+            <li><a class="text-[#737373]" href="">Services</a></li>
+            <li><a class="text-[#737373]">Portfolio</a></li>
+            <li><a class="text-[#737373]" href="">Blogs</a></li>
+            <li><a class="text-[#737373]" href="">Contact us</a></li>
+            <li class="inline mb-1"> <button class="btn btn-circle btn-outline"><i
+                  class="fa-solid fa-magnifying-glass text-[#737373]"></i></button> <button
+                class="btn btn-circle btn-outline"><i class="fa-solid fa-cart-shopping text-[#737373]"></i></button>
+            </li>
+            <li> <a class="btn bg-[#ABEF5F] px-3 text-sm rounded-[32px]">Book Consult <i
+                  class="fa-solid fa-arrow-right bg-[#1C1C1C] rounded-full -rotate-45 p-1 text-white"></i></a></li>
+          </ul>
+        </div>
+        <div class="max-sm:hidden">
+          <button class="btn btn-circle btn-outline mr-2"><i
+              class="fa-solid fa-magnifying-glass text-[#737373]"></i></button>
+          <button class="btn btn-circle btn-outline mr-2"><i
+              class="fa-solid fa-cart-shopping text-[#737373]"></i></button>
+          <a class="btn bg-[#ABEF5F] px-5 rounded-[32px]">Book Consult <i
+              class="fa-solid fa-arrow-right bg-[#1C1C1C] rounded-full -rotate-45 p-1 text-white"></i></a>
+        </div>
+      </div>
+    </div>
+
+   <!----banner section-->
+
+    <section>
+      
+    </section>
+
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+
+
 </body>
+
 </html>
